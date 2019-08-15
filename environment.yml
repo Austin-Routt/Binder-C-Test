@@ -1,13 +1,8 @@
-name: example-environment
+name: xeus-cling
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - xeus-cling=0.7.1
+  - xtensor=0.20.8
+  - xtensor-blas=0.16.1
+  - notebook
